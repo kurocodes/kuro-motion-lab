@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 9999px;
+  will-change:
+    transform, width, height, opacity, border-radius, background-color;
+  z-index: 9999;
+  transform-origin: center;
+  transition: background-color 0.3s ease;
+}
+
+.cursor-container {
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+  min-height: 50vh;
+  width: 100%;
+  position: relative;
+  place-content: center;
+  place-items: center;
+  /* cursor: none; */
+}
+
+.cursor-container button {
+  /* color: hsl(210, 100%, 52%); */
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+}

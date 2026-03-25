@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Plaster&display=swap");
+
+.svm-container {
+  position: relative;
+  padding-block: 25vh;
+  font-family: "Plaster", cursive;
+  -webkit-font-smoothing: antialiased;
+}
+
+.parallax {
+  overflow: hidden;
+  line-height: 0.8;
+  letter-spacing: -0.125rem;
+
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+}
+
+.scroller {
+  font-size: 6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+  .scroller {
+    font-size: 4rem;
+  }
+}

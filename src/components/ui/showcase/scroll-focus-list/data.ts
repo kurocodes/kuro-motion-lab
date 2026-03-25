@@ -1,0 +1,15 @@
+export const characters = [
+    { name: "Giyu Tomioka", image: "https://i.pinimg.com/736x/65/99/14/659914d036c712667d639e0de7a3b78b.jpg" },
+    { name: "Gyomei Himejima", image: "https://i.pinimg.com/736x/0d/5f/2d/0d5f2d70638feacbeea43f0e48b762ce.jpg" },
+    { name: "Inosuke Hashibira", image: "https://i.pinimg.com/736x/71/76/cd/7176cd35a4ba5969245d4f0329619d84.jpg" },
+    { name: "Mitsuri Kanroji", image: "https://i.pinimg.com/736x/f7/c7/81/f7c781b0b182948e7cfcc51ffe7c201b.jpg" },
+    { name: "Nezuko Kamado", image: "https://i.pinimg.com/1200x/b5/7f/f5/b57ff5abc0221ec5e37ef43939c13c39.jpg" },
+    { name: "Obanai Iguro", image: "https://i.pinimg.com/736x/24/0a/c0/240ac042c6eec718a38486195eb536cf.jpg" },
+    { name: "Kyojuro Rengoku", image: "https://i.pinimg.com/736x/95/01/db/9501db2c7723b95677fec2210d31fdb4.jpg" },
+    { name: "Sanemi Shinazugawa", image: "https://i.pinimg.com/736x/02/c4/0e/02c40ef8a08d589ea5be82a49f2a8ff8.jpg" },
+    { name: "Shinobu Kocho", image: "https://i.pinimg.com/1200x/ca/50/5e/ca505e49b49bfe1055990da584c1b62f.jpg" },
+    { name: "Tanjiro Kamado", image: "https://i.pinimg.com/736x/92/94/c5/9294c5a894ed3e529e1443c5f0782451.jpg" },
+    { name: "Tengen Uzui", image: "https://i.pinimg.com/736x/71/1f/3b/711f3bc0cb8265d97031db4b5c94e580.jpg" },
+    { name: "Tokito Muichiro", image: "https://i.pinimg.com/736x/c4/c1/51/c4c1510471bd9f303d03d8a943600542.jpg" },
+    { name: "Zenitsu Agatsuma", image: "https://i.pinimg.com/736x/73/da/d9/73dad9daa5f084cf1493c9c7f52a4d40.jpg" },
+]

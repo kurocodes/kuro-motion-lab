@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="cursor-fill" x1="18" y1="10" x2="45" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFDFF" />
+      <stop offset="1" stop-color="#D9ECFF" />
+    </linearGradient>
+    <linearGradient id="trail-fill" x1="10" y1="22" x2="36" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EE7FF" stop-opacity=".95" />
+      <stop offset="1" stop-color="#5EE7FF" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="0" y="0" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.2" result="blur" />
+      <feColorMatrix
+        in="blur"
+        type="matrix"
+        values="0 0 0 0 0.3686 0 0 0 0 0.9059 0 0 0 0 1 0 0 0 0.75 0"
+      />
+    </filter>
+  </defs>
+
+  <g filter="url(#glow)" opacity=".9">
+    <path
+      d="M12 28C19 27 23 26 29 22C34 19 39 15 44 10"
+      stroke="#5EE7FF"
+      stroke-width="5"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <path
+    d="M12 28C19 27 23 26 29 22C34 19 39 15 44 10"
+    stroke="url(#trail-fill)"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M19 11L44.5 29.4L33.2 32.1L38.7 47.6L31.8 50L26.3 34.6L19 43.7V11Z"
+    fill="url(#cursor-fill)"
+  />
+  <path
+    d="M19 11L44.5 29.4L33.2 32.1L38.7 47.6L31.8 50L26.3 34.6L19 43.7V11Z"
+    stroke="#07111F"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+</svg>

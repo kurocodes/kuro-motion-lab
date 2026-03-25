@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+.scroll-list-container section {
+  width: 100%;
+  background: hsl(0, 0%, 87%);
+  /* padding-inline: 120px; */
+  font-family: "Stack Sans Notch", sans-serif;
+
+  &.listing {
+    color: #000;
+    min-height: 100lvh;
+
+    &:where(.dark, .dark *) {
+      color: #fff;
+    }
+  }
+
+  &.spacing {
+    height: 30lvh;
+  }
+
+  &:where(.dark, .dark *) {
+    background-color: hsl(0, 0%, 13%);
+  }
+}
+
+.scroll-list-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-block: 12px;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    pointer-events: none;
+    user-select: none;
+    /* background-color: rgb(134, 168, 134); */
+
+    img {
+      width: 63px;
+      aspect-ratio: 1/1;
+      border-radius: 6px;
+      transform-origin: left center;
+    }
+
+    p {
+      /* font-size: 48px; */
+      line-height: 1;
+      opacity: 0.4;
+      transform: translateX(-87px);
+    }
+  }
+}
